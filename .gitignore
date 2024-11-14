@@ -1,0 +1,6 @@
+node_modules/
+coverage/
+*.json
+
+# Файлы, которые необходимо исключить из игнорирования
+!package.json
