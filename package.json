@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "coverage": "jest --collectCoverage" 
+    "coverage": "jest --collectCoverage"
   },
   "keywords": [
     "jest",
     "test",
     "jsaqa"
   ],
-  "author": "omelnikova",
+  "author": "Shilova",
   "license": "ISC",
   "devDependencies": {
     "jest": "^27.3.1"

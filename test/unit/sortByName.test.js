@@ -15,3 +15,16 @@ describe("Books names test suit", () => {
     ]);
   });
 });
+
+describe("Books names test suit", () => {
+  it("The function should not be sorted unless it is necessary", () =>{
+    const input = [
+      "Гарри Поттер"
+    ];
+    const expected = [
+      "Гарри Поттер"
+    ];
+    const result = sorting.sortByName(input);
+    expect(result).toEqual(["Гарри Поттер"]);
+  });
+});
